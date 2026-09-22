@@ -20,7 +20,7 @@
 
 ## 🎯 Dành cho ai?
 
-- Muốn gõ `zẻ`, `zú`, `zạ`, `qá`, `cô`... tự do không bị sửa
+- Muốn gõ `zẻ`, `zạ`, `qá`, `cô`... tự do không bị sửa
 - Ghét bộ gõ tự động "thông minh" nhảy `Viet Nam` → `Việt Nam`
 - Cần bộ gõ **bị động hoàn toàn**: gõ gì ra đó
 - Dùng **Fcitx5** trên Arch/Manjaro/EndeavourOS (Linux)
@@ -36,14 +36,12 @@
 | Hỏi (?) | `r` | `ar` → `ả`, `er` → `ẻ` |
 | Ngã (~) | `x` | `ax` → `ã`, `ex` → `ẽ` |
 | Nặng (.) | `j` | `aj` → `ạ`, `ej` → `ẹ` |
-| Móc (ă/ơ/ư) | `w` | `aw` → `ă`, `ow` → `ơ`, `w` → `ư` |
 | Mũ (â/ê/ô) | `a`/`e`/`o` kép | `aa` → `â`, `ee` → `ê`, `oo` → `ô` |
 
 ### Mở rộng cho ký tự không chuẩn:
 | Gõ | Kết quả |
 |----|---------|
 | `zer` | `zẻ` |
-| `zus` | `zú` |
 | `zaj` | `zạ` |
 | `qas` | `qá` |
 | `cs` | `ć` |

@@ -97,11 +97,9 @@ echo
 echo "Test ngay (bật tiếng Việt: Super+Space):"
 echo
 echo "  zer[SPACE]    → zẻ"
-echo "  zus[SPACE]    → zú"
 echo "  zaj[SPACE]    → zạ"
 echo "  zor[SPACE]    → zỏ"
 echo "  zox[SPACE]    → zõ"
-echo "  zawf[SPACE]   → zề"
 echo
 echo "  Viet Nam[SPACE]      → Viet Nam (KHÔNG tự thêm dấu)"
 echo "  Viet s Nam s[SPACE]  → Việt Nám (bạn chủ động gõ tone)"
