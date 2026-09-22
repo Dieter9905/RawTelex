@@ -1,4 +1,5 @@
 # RawTelex - Vietnamese Telex Pure Diacritic Input
+# CHỈ các chữ cái tiếng Việt chuẩn mới được thêm dấu
 # No dictionary, no autocorrect, no suggestions - just raw key mapping
 # Version: 1.0
 # Author: Custom for Nhat
@@ -126,47 +127,9 @@ yx	ỹ
 yj	ỵ
 
 # ========================================
-# EXTENDED: Non-standard letters with tones
-# Supports: z, q, c, v with all 5 tones
-# ========================================
-
-# z (popular in slang: zẻ, zú, zạ...)
-zs	ź
-zf	ź
-zr	ź
-zx	ź
-zj	ź
-
-# q
-qs	ǵ
-qf	ǵ
-qr	ǵ
-qx	ǵ
-qj	ǵ
-
-# c
-cs	ć
-cf	č
-cr	ĉ
-cx	ċ
-cj	ć
-
-# v
-vs	v́
-vf	v̀
-vr	v̉
-vx	ṽ
-vj	ṿ
-
-# ========================================
-# ĐẶC BIỆT: đ
+# ĐẶC BIỆT: đ (chỉ đ, KHÔNG có dấu trên đ)
 # ========================================
 dd	đ
-ds	ḋ
-df	ḋ
-dr	ḋ
-dx	ḋ
-dj	ḋ
 
 # ========================================
 # CAPITAL LETTERS (Shift + key)
@@ -257,41 +220,7 @@ YR	Ỷ
 YX	Ỹ
 YJ	Ỵ
 
-# Z hoa
-ZS	Ź
-ZF	Ź
-ZR	Ź
-ZX	Ź
-ZJ	Ź
-
-# Q hoa
-QS	Ǵ
-QF	Ǵ
-QR	Ǵ
-QX	Ǵ
-QJ	Ǵ
-
-# C hoa
-CS	Ć
-CF	Č
-CR	Ĉ
-CX	Ċ
-CJ	Ć
-
-# V hoa
-VS	V́
-VF	V̀
-VR	V̉
-VX	Ṽ
-VJ	Ṿ
-
-# Đ hoa
 DD	Đ
-DS	Ḋ
-DF	Ḋ
-DR	Ḋ
-DX	Ḋ
-DJ	Ḋ
 
 # ========================================
 # PUNCTUATION (pass through)

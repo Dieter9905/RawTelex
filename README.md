@@ -12,7 +12,7 @@
 | Tự động sửa `Viet Nam` → `Việt Nam` | ❌ **KHÔNG** |
 | Từ điển / Gợi ý / Học từ mới | ❌ **KHÔNG** |
 | Hiển thị khung ứng viên (candidate window) | ❌ **KHÔNG** |
-| Hỗ trợ `z`, `q`, `c`, `v` với 5 dấu | ✅ **CÓ** |
+| Hỗ trợ `z`, `q`, `c`, `v` với 5 dấu | ❌ **KHÔNG** (chỉ chữ cái VN chuẩn) |
 | Telex chuẩn cho tiếng Việt | ✅ **CÓ** |
 | Chỉ thêm dấu, không can thiệp từ vựng | ✅ **CÓ** |
 
@@ -20,9 +20,10 @@
 
 ## 🎯 Dành cho ai?
 
-- Muốn gõ `zẻ`, `zạ`, `qá`, `cô`... tự do không bị sửa
+- Muốn **CHỈ chữ cái tiếng Việt chuẩn** (aăâeêiouyơư + đ) mới được thêm dấu
 - Ghét bộ gõ tự động "thông minh" nhảy `Viet Nam` → `Việt Nam`
 - Cần bộ gõ **bị động hoàn toàn**: gõ gì ra đó
+- z, q, c, v, k, p, t... **KHÔNG được thêm dấu** - gõ gì ra đó
 - Dùng **Fcitx5** trên Arch/Manjaro/EndeavourOS (Linux)
 
 ---
@@ -38,14 +39,14 @@
 | Nặng (.) | `j` | `aj` → `ạ`, `ej` → `ẹ` |
 | Mũ (â/ê/ô) | `a`/`e`/`o` kép | `aa` → `â`, `ee` → `ê`, `oo` → `ô` |
 
-### Mở rộng cho ký tự không chuẩn:
+### Ký tự KHÔNG được thêm dấu (gõ gì ra đó):
 | Gõ | Kết quả |
 |----|---------|
-| `zer` | `zẻ` |
-| `zaj` | `zạ` |
-| `qas` | `qá` |
-| `cs` | `ć` |
-| `vs` | `v́` |
+| `zer` | `zer` (z không thêm dấu) |
+| `qas` | `qas` (q không thêm dấu) |
+| `cs` | `cs` (c không thêm dấu) |
+| `vs` | `vs` (v không thêm dấu) |
+| `ks` | `ks` (k không thêm dấu) |
 
 > **Lưu ý**: Nhấn **SPACE** sau mỗi từ để commit (vì `AutoCommit=false`).
 
@@ -84,16 +85,14 @@ TriggerInputMethod=Super+Space
 SwitchForward=Control+Shift+space
 ```
 
-### Thêm/khim mapping mới
-Sửa `rawtelex.txt` rồi chạy lại `./install.sh`:
+### Thêm mapping mới (KHÔNG khuyến khích - vi phạm triết lý RawTelex)
+Nếu bạn thực sự cần, sửa `rawtelex.txt` rồi chạy lại `./install.sh`:
 ```txt
-# Ví dụ thêm mapping cho 'k'
-ks	ḱ
-kf	ḱ
-kr	ḱ
-kx	ḱ
-kj	ḱ
+# Ví dụ: KHÔNG thêm mapping cho k, z, q, c, v...
+# ks	ḱ
+# kf	ḱ
 ```
+RawTelex chỉ hỗ trợ chữ cái tiếng Việt chuẩn.
 
 ---
 

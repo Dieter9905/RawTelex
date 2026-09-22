@@ -96,18 +96,20 @@ echo "=========================================="
 echo
 echo "Test ngay (bật tiếng Việt: Super+Space):"
 echo
-echo "  zer[SPACE]    → zẻ"
-echo "  zaj[SPACE]    → zạ"
-echo "  zor[SPACE]    → zỏ"
-echo "  zox[SPACE]    → zõ"
-echo
+echo "  as[SPACE]    → á"
+echo "  aw[SPACE]    → ă"
+echo "  dd[SPACE]    → đ"
 echo "  Viet Nam[SPACE]      → Viet Nam (KHÔNG tự thêm dấu)"
 echo "  Viet s Nam s[SPACE]  → Việt Nám (bạn chủ động gõ tone)"
+echo
+echo "  z e r[SPACE] → z e r (z KHÔNG được thêm dấu)"
+echo "  q a s[SPACE] → q a s (q KHÔNG được thêm dấu)"
 echo
 echo "Đặc điểm RawTelex:"
 echo "  ✓ Không từ điển, không gợi ý"
 echo "  ✓ Không tự động sửa, không học từ"
-echo "  ✓ Hỗ trợ z, q, c, v với 5 dấu"
+echo "  ✓ CHỈ chữ cái VN chuẩn (aăâeêiouyơư + đ) mới thêm dấu"
+echo "  ✓ z, q, c, v... KHÔNG thêm dấu - gõ gì ra đó"
 echo "  ✓ Gõ gì ra đó - pure diacritic"
 echo
 echo "Lưu ý: Nhấn SPACE sau mỗi từ để commit."
